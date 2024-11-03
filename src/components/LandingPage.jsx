@@ -16,12 +16,12 @@ const LandingPage = () => {
     {
       icon: <TrendingUp className="w-6 h-6" />,
       title: "Price Predictions",
-      description: "Predict XTZ price movements and earn rewards"
+      description: "Predict AIA price movements and earn rewards"
     },
     {
       icon: <Award className="w-6 h-6" />,
       title: "Win Rewards",
-      description: "Earn XTZ tokens for accurate predictions"
+      description: "Earn AIA tokens for accurate predictions"
     },
     {
       icon: <Shield className="w-6 h-6" />,
@@ -58,7 +58,7 @@ const LandingPage = () => {
           Omega Protocol
         </h1>
         <p className="text-xl md:text-2xl text-violet-200/80 mb-8">
-          Predict. Trade. Earn. The Future of XTZ Price Prediction
+          Predict. Trade. Earn. The Future of AIA Price Prediction
         </p>
         <motion.button
           onClick={() => navigate('/predict')}
@@ -125,7 +125,7 @@ const LandingPage = () => {
       >
         <div className="p-8 rounded-lg bg-gradient-to-r from-violet-900/50 to-indigo-900/50 border border-violet-500/20 backdrop-blur-sm">
           <h2 className="text-3xl font-bold mb-4 text-violet-200">Ready to Start?</h2>
-          <p className="text-violet-300/70 mb-6">Join thousands of traders making predictions on XTZ price movements</p>
+          <p className="text-violet-300/70 mb-6">Join thousands of traders making predictions on AIA price movements</p>
           <motion.button
             onClick={() => navigate('/predict')}
             className="px-8 py-4 text-lg font-medium rounded-lg bg-gradient-to-r from-violet-500 to-indigo-500 text-white hover:from-violet-600 hover:to-indigo-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-violet-500/25"

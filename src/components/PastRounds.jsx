@@ -112,7 +112,7 @@ const PastRounds = () => {
                                     <td className="px-6 py-4 text-violet-200">{ethers.formatUnits(round.closePrice, 8)}</td>
                                     <td className="px-6 py-4">
                                         <span className="flex items-center space-x-2">
-                                            <span className="text-violet-200">{round.userAmount} XTZ</span>
+                                            <span className="text-violet-200">{round.userAmount} AIA</span>
                                             <span className={`px-2 py-0.5 rounded text-xs font-medium ${
                                                 round.userBull 
                                                     ? 'bg-green-500/20 text-green-300' 

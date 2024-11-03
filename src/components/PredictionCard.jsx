@@ -95,7 +95,7 @@ const PredictionCard = ({ currentPrice, roundInfo }) => {
                             <div className="bg-violet-500/10 rounded-lg p-4">
                                 <div className="flex justify-between items-center">
                                     <span className="text-violet-300">Prize Pool</span>
-                                    <span className="text-violet-200 font-medium">{totalAmount} XTZ</span>
+                                    <span className="text-violet-200 font-medium">{totalAmount} AIA</span>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const PredictionCard = ({ currentPrice, roundInfo }) => {
                             type="number"
                             value={amount}
                             onChange={(e) => setAmount(e.target.value)}
-                            placeholder="Enter XTZ amount"
+                            placeholder="Enter AIA amount"
                             className="w-full p-3 rounded-lg bg-violet-500/10 border border-violet-500/20 text-violet-200 placeholder-violet-400/50 focus:outline-none focus:border-violet-500/50"
                         />
 
