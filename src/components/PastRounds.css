@@ -1,0 +1,52 @@
+.past-rounds-container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.past-rounds-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+
+.past-rounds-table th, 
+.past-rounds-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.past-rounds-table th {
+    background-color: #6366a0;
+    color: white;
+    font-weight: bold;
+}
+
+.past-rounds-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.past-rounds-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.past-rounds-table tr:hover {
+    background-color: #ddd;
+}
+
+.claim-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.claim-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

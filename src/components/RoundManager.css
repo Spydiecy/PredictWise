@@ -1,0 +1,34 @@
+.round-manager {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the card */
+    margin: 20px 0; /* Spacing outside the card */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Inter', sans-serif; /* Font family */
+    color: #343a40; /* Dark text color */
+    text-align: center; /* Centered text */
+}
+
+.round-manager div {
+    margin: 10px 0; /* Spacing between elements */
+}
+
+.round-manager .current-price {
+    font-size: 1.5rem; /* Larger font for current price */
+    font-weight: bold; /* Bold text */
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.round-manager .time-left {
+    font-size: 1.2rem; /* Slightly larger font for time left */
+    color: #28a745; /* Green color for positive status */
+}
+
+.round-manager .time-left.warning {
+    color: #ffc107; /* Yellow color for warning */
+}
+
+.round-manager .time-left.error {
+    color: #dc3545; /* Red color for errors */
+}
